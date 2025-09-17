@@ -7,7 +7,6 @@ pipeline {
 
                 bat '"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pip.exe" install -r requirements.txt'
 
-s
             }
         }
         stage('Test') {
