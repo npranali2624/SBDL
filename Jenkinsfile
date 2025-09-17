@@ -10,7 +10,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'pytest'
+                bat 
+                 bat '"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pytest.exe"'
             }
         }
         stage('Package') {
